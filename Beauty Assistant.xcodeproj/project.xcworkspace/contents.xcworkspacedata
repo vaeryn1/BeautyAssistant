@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:BeautyAssistant.xcodeproj">
+      location = "self:/Users/rich/Documents/BeautyAssistant/Beauty Assistant.xcodeproj">
    </FileRef>
 </Workspace>
