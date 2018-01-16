@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="baz-DN-YrK">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Home-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BeautyAssistant" customModuleProvider="target" sceneMemberID="viewController">
@@ -19,24 +19,98 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="polish1" highlightedImage="nails" translatesAutoresizingMaskIntoConstraints="NO" id="Dhu-Vq-kcD">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="608"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Dhu-Vq-kcD" secondAttribute="trailing" id="1ay-Vo-HfL"/>
                             <constraint firstItem="Dhu-Vq-kcD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6LE-uy-dbi"/>
+                            <constraint firstItem="Dhu-Vq-kcD" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="10" id="840-Pe-6cc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Dhu-Vq-kcD" secondAttribute="bottom" id="LJP-pE-UfK"/>
+                            <constraint firstAttribute="bottom" secondItem="Dhu-Vq-kcD" secondAttribute="bottom" id="Szb-if-36P"/>
                             <constraint firstItem="Dhu-Vq-kcD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="a8A-g7-DiS"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Dhu-Vq-kcD" secondAttribute="bottom" id="u9G-DO-Mac"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="home-7" id="3td-2u-Ghh"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="652" y="-163"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="8Y2-n5-lKc">
+            <objects>
+                <viewController id="qh8-aq-H6p" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6qt-0X-TBX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Bfa-P1-XEk"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="favorites" id="txL-eS-1uf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0k1-Jw-YP6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1430" y="-106"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="VYq-WG-TO3">
+            <objects>
+                <viewController id="9YF-lt-bkc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cXo-p1-7Ll">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="v7c-xe-jwj"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="recents" id="ocs-bp-eek"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pbv-2u-3I7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="652" y="651"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="5Uk-w2-9hp">
+            <objects>
+                <viewController id="mzX-tA-WgK" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3oE-yv-viy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="p3Y-cQ-Fed"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="history" id="SeY-DH-rlh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5o6-kp-e5I" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1458" y="652"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="fEO-aP-efx">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="baz-DN-YrK" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="wTk-fa-d4E">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="QWJ-R6-wc2"/>
+                        <segue destination="9YF-lt-bkc" kind="relationship" relationship="viewControllers" id="aID-dh-xFx"/>
+                        <segue destination="qh8-aq-H6p" kind="relationship" relationship="viewControllers" id="cy0-2U-nHz"/>
+                        <segue destination="mzX-tA-WgK" kind="relationship" relationship="viewControllers" id="vQ7-Ss-KSM"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AWO-8f-0E6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-182.40000000000001" y="117.84107946026987"/>
         </scene>
     </scenes>
     <resources>
+        <image name="home-7" width="30" height="30"/>
         <image name="nails" width="1869" height="1734"/>
         <image name="polish1" width="2448" height="3264"/>
     </resources>
